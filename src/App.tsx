@@ -72,7 +72,7 @@ function App() {
               <div className="relative">
                 <div className="absolute inset-0 bg-blue-600 rounded-lg transform translate-x-3 translate-y-3"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&h=500"
+                  src="/image.jpg"
                   alt="Profile"
                   className="relative rounded-lg w-full object-cover shadow-xl"
                 />
@@ -155,24 +155,24 @@ function App() {
                 description: "An e-commerce platform with product listings, shopping cart, and secure payment integration.",
                 image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&h=500",
                 tech: ["Next.js", "Node.js", "MongoDB", "Razorpay"],
-                code:"https://github.com/itsanmol27/VibeCart",
-                demo:"https://anmol-garg-vibecart.vercel.app/"
+                code: "https://github.com/itsanmol27/VibeCart",
+                demo: "https://anmol-garg-vibecart.vercel.app/"
               },
               {
                 title: "Social Media Platform",
                 description: "A real-time social media platform with user authentication, posts, comments, and media uploads.",
                 image: "https://plus.unsplash.com/premium_photo-1683977922495-3ab3ce7ba4e6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 tech: ["Next.js", "Node.js", "MongoDB", "Firebase"],
-                code:"https://github.com/itsanmol27/VibeZone",
-                demo:"https://anmol-garg-socialmedia.vercel.app/"
+                code: "https://github.com/itsanmol27/VibeZone",
+                demo: "https://anmol-garg-socialmedia.vercel.app/"
               },
               {
                 title: "Multiplayer Chess Game",
                 description: "A real-time multiplayer game of Chess with Websockets for matchmaking and messages.",
                 image: "https://plus.unsplash.com/premium_photo-1672855191351-e26398f27e5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 tech: ["Next.js", "WebSockets", "Node.js"],
-                code:"https://github.com/itsanmol27/Multiplayer-Chess",
-                demo:"https://anmol-garg-chess.vercel.app/"
+                code: "https://github.com/itsanmol27/Multiplayer-Chess",
+                demo: "https://anmol-garg-chess.vercel.app/"
               },
             ].map((project, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg card-hover">
